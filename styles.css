@@ -164,9 +164,12 @@ html {
 }
 
 h2 {
-  padding: 8%;
   font-family: "Montserrat", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.titles {
+  padding: 8%;
 }
