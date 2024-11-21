@@ -68,8 +68,8 @@ function showResultPrincipal(municipio) {
     <p>Não tem instalação: ${municipio["Não tem instalação"]}</p>
     <p>Outro: ${municipio["Outro"]}</p>
     <p>Rede geral de esgoto ou pluvial: ${municipio["Rede geral de esgoto ou pluvial"]}</p>
-    <p>Total: ${municipio["Total"]}</p>
     <p>Vala: ${municipio["Vala"]}</p>
+    <p>Total: ${municipio["Total"]}</p>
   `;
 }
 
@@ -112,8 +112,8 @@ function showResultComparar1(municipio) {
     <p>Não tem instalação: ${municipio["Não tem instalação"]}</p>
     <p>Outro: ${municipio["Outro"]}</p>
     <p>Rede geral de esgoto ou pluvial: ${municipio["Rede geral de esgoto ou pluvial"]}</p>
-    <p>Total: ${municipio["Total"]}</p>
     <p>Vala: ${municipio["Vala"]}</p>
+    <p>Total: ${municipio["Total"]}</p>
   `;
 }
 
@@ -156,8 +156,8 @@ function showResultComparar2(municipio) {
     <p>Não tem instalação: ${municipio["Não tem instalação"]}</p>
     <p>Outro: ${municipio["Outro"]}</p>
     <p>Rede geral de esgoto ou pluvial: ${municipio["Rede geral de esgoto ou pluvial"]}</p>
-    <p>Total: ${municipio["Total"]}</p>
     <p>Vala: ${municipio["Vala"]}</p>
+    <p>Total: ${municipio["Total"]}</p>
   `;
 }
 
@@ -192,13 +192,13 @@ function trocarImagem(diretion) {
   var image = document.getElementById("carrossel");
   switch (estado) {
     case 1:
-      image.src = "./Assets/img/1990.jpg";
+      image.src = "1990.jpg";
       break;
     case 2:
-      image.src = "./Assets/img/2000.jpg";
+      image.src = "2000.jpg";
       break;
     case 3:
-      image.src = "./Assets/img/2010.jpg";
+      image.src = "2010.jpg";
   }
 }
 
