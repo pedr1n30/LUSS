@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+p {
+  font-weight: 700;
+}
+
 body {
   background-color: #e7eded;
 }
