@@ -127,13 +127,11 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding-top: 5%; */
 }
 .carrossel {
   display: flex;
   align-items: center;
-  justify-content: left;
-  padding-right: 15%;
+  justify-content: center;
 }
 button {
   text-align: center;
@@ -157,10 +155,11 @@ html {
 }
 
 .infogram-embed {
-  width: 50%;
+  padding-top: 3%;
+  width: 45%;
   display: flex;
   align-items: center;
-  justify-content: right;
+  justify-content: center;
 }
 
 h2 {
@@ -171,5 +170,11 @@ h2 {
 }
 
 .titles {
-  padding: 5%;
+  padding: 8%;
+}
+
+.infogram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
