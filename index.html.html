@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dados do Paraguaçu</title>
+    <link rel="stylesheet" href="./Assets/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#Pesquisar">Pesquisar</a>
+        <a href="#comparar">Comparar</a>
+        <a href="#graficos">Gráficos</a>
+      </nav>
+    </header>
+
+    <main id="Pesquisar">
+      <h1>Procurar dados dos municípios</h1>
+      <div class="s_main">
+        <div class="box_user">
+          <p>Insira o que deseja</p>
+          <div>
+            <input type="text" id="muni-pesquisar" placeholder="Município" />
+            <div class="sugestoes" id="sugerir"></div>
+          </div>
+          <select id="ano">
+            <option value="1990">1990</option>
+            <option value="2000">2000</option>
+            <option value="2010">2010</option>
+          </select>
+        </div>
+        <div class="igual">
+          <div class="barra"></div>
+          <div class="barra"></div>
+        </div>
+        <div class="results">preencha</div>
+      </div>
+    </main>
+
+    <section id="comparar">
+      <h1>Compare municípios</h1>
+      <div class="sec_mun">
+        <div class="box_user">
+          <p>Insira o que deseja</p>
+          <input type="text" id="muni-comparar" placeholder="Município" />
+          <div id="sugerir1" class="sugestoes"></div>
+          <select id="ano-comparar">
+            <option value="1990">1990</option>
+            <option value="2000">2000</option>
+            <option value="2010">2010</option>
+          </select>
+        </div>
+
+        <div class="box_user">
+          <p>Insira o que deseja</p>
+          <input type="text" id="muni-comparar-2" placeholder="Município" />
+          <div id="sugerir2" class="sugestoes"></div>
+          <select id="ano-comparar-2">
+            <option value="1990">1990</option>
+            <option value="2000">2000</option>
+            <option value="2010">2010</option>
+          </select>
+        </div>
+      </div>
+      <div class="results2">
+        <div id="resulcomp" class="editor">preencha</div>
+        <div id="resulcomp2" class="editor">preencha</div>
+      </div>
+    </section>
+    <h2>Gráficos gerais</h2>
+    <section class="graftion" id="graficos">
+      <div class="carrossel">
+        <button onclick="trocarImagem(-1)">🠔</button>
+        <img
+          id="carrossel"
+          src="./Assets/img/1990.jpg"
+          alt="Graficos dos anos 1990, 2000 e 2010"
+        />
+
+        <button onclick="trocarImagem(1)">🠖</button>
+      </div>
+      <div
+        class="infogram-embed"
+        data-id="c98617fa-9c3b-4db6-88f2-4c4b2c413f91"
+        data-type="interactive"
+        data-title="lll"
+      ></div>
+    </section>
+
+    <script src="./Assets/script.js"></script>
+  </body>
+</html>

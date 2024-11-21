@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e7eded;
+}
+
+nav {
+  position: fixed;
+  background-color: #151515;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px;
+  border-radius: 9px;
+  box-shadow: 10px;
+}
+
+nav a {
+  color: white;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  padding: 5%;
+}
+.s_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10%;
+}
+
+.box_user {
+  background-color: #837c7c;
+  padding: 7%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+
+  background-color: #fcfcfcd5;
+  text-align: center;
+  width: 90%;
+}
+
+.igual {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  height: 30px;
+}
+
+.barra {
+  background-color: #151515;
+  width: 100%;
+  height: 10%;
+}
+
+.results {
+  background-color: white;
+  border: 1px solid #151515;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sec_mun {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 10%;
+}
+
+.preguiça {
+  text-align: center;
+}
+
+.sugestoes {
+  max-width: 100px;
+  overflow-y: auto;
+  background-color: rgba(250, 250, 250, 0.514);
+  width: 100%;
+  z-index: 1000;
+  color: #151515;
+  border: 2px solid gray;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.results2 {
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  display: flex;
+  border-radius: 50px;
+  padding-top: 4%;
+}
+.editor {
+  width: 30%;
+  border: 1px solid #151515;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 2px #151515;
+}
+
+.graftion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5%;
+}
+.carrossel {
+  display: flex;
+  align-items: first baseline;
+  justify-content: center;
+}
+button {
+  text-align: center;
+  background: none;
+  text-decoration: solid;
+  font-size: xx-large;
+  border: none;
+  max-width: 20px;
+  cursor: pointer;
+  font-weight: 50px;
+  max-height: 20px;
+}
+
+img {
+  width: 40%;
+  background-color: #837c7c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.infogram-embed {
+  width: 30%;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
